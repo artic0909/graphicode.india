@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 
 * {
   margin: 0;
@@ -73,17 +73,33 @@ body {
 .clr-org {
   color: #ff6011;
 }
-.btn-danger{
+.btn-danger {
   background-color: #2e4a9f !important;
   border: 1px solid #2e4a9f !important;
-  &:hover{
+  &:hover {
     background-color: #10339b !important;
   }
 }
-.btn-org-01{
+.btn-danger2 {
+  background-color: #ff6011 !important;
+  border: 1px solid #ff6011 !important;
+  color: white !important;
+  &:hover {
+    background-color: #ff5805 !important;
+  }
+}
+.btn-danger3 {
+  background-color: #b4b4c2 !important;
+  border: 1px solid #E3E3E9 !important;
+  color: white !important;
+  &:hover {
+    background-color: #a5a5b4 !important;
+  }
+}
+.btn-org-01 {
   background: transparent !important;
   border: 2px solid #ff6011 !important;
-  &:hover{
+  &:hover {
     background-color: #e9e9e93d !important;
   }
 }
@@ -152,8 +168,12 @@ body {
 .navbar_container {
   margin-top: 30px;
   border-radius: 20px;
+  position: sticky !important;
+  top: 0;
+  background: #ffffff !important;
+  z-index: 111;
 }
-.nav-link{
+.nav-link {
   border-radius: 10px;
   padding-left: 5px !important;
   padding-right: 5px !important;
@@ -175,12 +195,12 @@ body {
 /* Navbar CSS End============================================================ */
 /* ========================================================================== */
 
-
 /* ========================================================================== */
 /* Elements animation up-down Start========================================== */
 /* ========================================================================== */
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0); /* Starting and ending position */
   }
   50% {
