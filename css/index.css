@@ -9,7 +9,10 @@
   padding: 15px;
   background-color: #f4f4f4;
 }
-
+.contact-form-inner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .blogs-container{
   display: grid;
   grid-template-columns: 1fr 1fr;

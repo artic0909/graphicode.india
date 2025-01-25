@@ -90,7 +90,7 @@ body {
 }
 .btn-danger3 {
   background-color: #b4b4c2 !important;
-  border: 1px solid #E3E3E9 !important;
+  border: 1px solid #e3e3e9 !important;
   color: white !important;
   &:hover {
     background-color: #a5a5b4 !important;
@@ -108,7 +108,14 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
-
+.btn-active {
+  background-color: #ff6011 !important;
+  border: 1px solid #ff6011 !important;
+  color: white !important;
+  &:hover {
+    background-color: #ff5805 !important;
+  }
+}
 /* ========================================================================== */
 /* Loader CSS Start========================================================== */
 /* ========================================================================== */
