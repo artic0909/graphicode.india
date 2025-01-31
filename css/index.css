@@ -18,6 +18,23 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.main-mid-row{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.service-row{
+  display: grid !important;
+  grid-template-columns: 8fr 4fr !important;
+}
+
+
+.faq-row{
+  display: grid !important;
+  grid-template-columns: 4fr 8fr !important;
+}
+
+
 .img-scroll-container {
   display: flex;
   transition: transform 1s ease-in-out;
