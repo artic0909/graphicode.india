@@ -20,7 +20,7 @@
 
   .navbar_container {
     .nav-logo {
-      height: 25px !important;
+      height: 20px !important;
     }
 
     margin-top: 10px !important;
@@ -145,6 +145,18 @@
 }
 
 @media (min-width: 415px) and (max-width: 599px) {
+  .navbar_container {
+    .nav-logo {
+      height: 20px !important;
+    }
+
+    margin-top: 10px !important;
+
+    .navbar-brand span {
+      font-size: 1.1rem !important;
+    }
+  }
+  
   .contact-form-inner {
     display: grid;
     grid-template-columns: 1fr !important;
