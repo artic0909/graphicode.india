@@ -6,12 +6,18 @@
 
 @media (min-width: 350px) and (max-width: 414px) {
 
+    .btnss-2{
+        width: 100% !important;
+    }
+    .all-btn{
+        width: 100% !important;
+    }
     .buttons2 .btnss-2 {
         display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr !important;
 
         button {
-            font-size: 0.7rem !important;
+            font-size: 0.9rem !important;
         }
     }
 
@@ -189,9 +195,6 @@
 
     }
 }
-
-
-
 
 @media (min-width: 1200px) and (max-width: 1498px) {
     .numbers-containerr .btn-conatiner .av-btn {
