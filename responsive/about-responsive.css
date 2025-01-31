@@ -5,6 +5,16 @@
 /* ================================================== */
 
 @media (min-width: 350px) and (max-width: 414px) {
+
+    .buttons2 .btnss-2 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        button {
+            font-size: 0.7rem !important;
+        }
+    }
+
     .service2-row {
         display: flex !important;
         flex-direction: column-reverse !important;
@@ -49,6 +59,15 @@
 
 
 @media (min-width: 415px) and (max-width: 599px) {
+    .buttons2 .btnss-2 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        button {
+            font-size: 0.7rem !important;
+        }
+    }
+
     .service2-row {
         display: flex !important;
         flex-direction: column-reverse !important;
@@ -93,6 +112,15 @@
 
 
 @media (min-width: 600px) and (max-width: 765px) {
+    .buttons2 .btnss-2 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        button {
+            font-size: 0.7rem !important;
+        }
+    }
+
     .service2-row {
         display: flex !important;
         flex-direction: column-reverse !important;
