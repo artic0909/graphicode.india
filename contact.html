@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/fixed.css" />
+    <link rel="stylesheet" href="./responsive/home-responsive.css" />
+    <link rel="stylesheet" href="./responsive/about-responsive.css" />
+
+
     <!-- Bootstrap Links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -30,12 +34,15 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+
+
+
+
                 <!-- Navbar Start===================================================-->
-                <nav
-                    class="navbar navbar-expand-lg navbar-light bg-white navbar_container shadow border fixed-navbar-container p-3">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white navbar_container shadow border p-3">
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="./img/logo.png" alt="Graphicode India Logo" class="me-2" height="32" />
+                            <img src="./img/logo.png" alt="Graphicode India Logo" class="me-2 nav-logo" height="32" />
                             <span class="fw-bold fs-4 clr-bl">Graphicode</span>&nbsp;
                             <span class="fw-bold fs-4 clr-org"> India</span>
                         </a>
@@ -73,21 +80,21 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold inner-items-center" aria-current="page"
+                                    <a class="nav-link fw-bold inner-items-center" aria-current="page" id="active-nav"
                                         href="blogs.html"><img class="nav-img" src="./icon/blogs.png" width="20"
                                             alt="" />&nbsp;<span>Blogs</span></a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold inner-items-center" aria-current="page" id="active-nav"
+                                    <a class="nav-link fw-bold hide inner-items-center" aria-current="page"
                                         href="contact.html"><img class="nav-img" src="./icon/contactus.png" width="23"
-                                            alt="" />&nbsp;<span>Contact Us</span></a>
+                                            alt="" />&nbsp;<span>Contact</span></a>
                                 </li>
 
                                 <li class="nav-item btn-org">
                                     <a class="nav-link fw-bold inner-items-center" aria-current="page"
                                         href="contact.html">Let's Talk &nbsp;
-                                        <img class="nav-img" src="./icon/arrow-talk.png" width="15" alt="" /></a>
+                                        <img class="nav-img hide" src="./icon/arrow-talk.png" width="15" alt="" /></a>
                                 </li>
                             </ul>
                         </div>
@@ -95,8 +102,20 @@
                 </nav>
                 <!-- Navbar End======================================================-->
 
+
+
+
+
+
+
+
                 <!-- Service + Video start========================================================================================== -->
-                <div class="row">
+                <div class="row service2-row">
+
+
+
+
+
                     <!-- Services Section Start======================================================-->
                     <section class="main-section col-8 mt-4">
                         <div class="shadow border p-4">
@@ -116,7 +135,7 @@
                                 <!-- Services============================ -->
                                 <div class="infoo">
 
-                                    <div class="contact-container p-3 gap-3">
+                                    <div class="contact-container gap-3" style="padding: 16px;">
 
                                         <!-- card 1 -->
                                         <div class="p-4 pb-2 mb-4 blog-item"
@@ -206,20 +225,26 @@
                     </section>
                     <!-- Services Section End======================================================-->
 
+
+
+
+
+
+
                     <!-- Fixed Section Start====================================================== -->
                     <section class="video-fixed-section col-4 mt-4">
-                        <div class="shadow border p-3 video-fixed-section2">
+                        <div class="shadow border p-3 video-fixed-section2 vfs-inner">
                             <div style="border-radius: 10px"
                                 class="img-container bg-white pt-2 d-flex justify-content-center align-items-center">
-                                <video src="./Video/demoo.mp4" autoplay muted loop width="350" class="border"
+                                <video src="./Video/demoo.mp4" autoplay muted loop class="border video-part img-fluid"
                                     style="border-radius: 15px"></video>
                             </div>
 
                             <div class="card-content mt-2 p-3">
-                                <p class="fw-bold fs-4 text-start m-0">
+                                <p class="fw-bold fs-4 text-start m-0 video-title">
                                     👋Welcome To <span class="clr-bl">Graphicode</span>
                                 </p>
-                                <p class="fs-6 m-0" style="text-align: justify">
+                                <p class="fs-6 m-0 video-desc" style="text-align: justify">
                                     Graphicode India, established two years ago, is a trusted
                                     provider of innovative digital solutions. Our skilled team
                                     specializes in delivering custom software, creative design
@@ -228,7 +253,7 @@
                                 </p>
                             </div>
 
-                            <div class="buttons p-3 d-flex justify-content-between">
+                            <div class="buttons video-buttons p-3 d-flex justify-content-between">
                                 <a href="" class="btn btn-danger btns-1 fw-semibold p-3 px-4"><img
                                         src="./icon/whatsapp.png" width="20" alt="" />
                                     Whatsapp</a>
@@ -239,6 +264,11 @@
                         </div>
                     </section>
                     <!-- Fixed Section End====================================================== -->
+
+
+
+
+
                 </div>
                 <!-- Service + Video End========================================================================================== -->
 
@@ -249,7 +279,7 @@
                             <div class="col-6">
                                 <div class="footer-logo">
                                     <img src="./img/logo.png" width="40" alt="" />
-                                    <p class="opacity-75">
+                                    <p class="opacity-75 footer-text">
                                         <span class="clr-bl fs-5">©</span> 2025 All rights
                                         reserved by <span class="clr-org fs-4">♥</span> Graphicode
                                         India
@@ -265,7 +295,7 @@
                             text-decoration: none;
                             color: black;
                             opacity: 0.75;
-                          ">Privacy & Policy</a>
+                          ">Privacy <span class="hidee"> & Policy</span></a>
                                         </li>
                                         <li>
                                             <a href="#" style="
@@ -294,11 +324,11 @@
               position: fixed;
               top: 80px;
               width: 300px;
-              left: 20px;
+              left: 0;
               filter: drop-shadow(1px 1px 1px rgba(199, 201, 204, 0.747));
             " />
                 <img src="./icon/8992340.webp" class="fixed-shape" alt=""
-                    style="position: fixed; bottom: 80px; width: 150px; right: 60px" />
+                    style="position: fixed; bottom: 80px; width: 150px; right: 0" />
                 <!-- ====================================Fixed Shapes End================================================================ -->
             </div>
         </div>
@@ -307,9 +337,6 @@
 
     <!--JS -->
     <script src="./js/loader.js"></script>
-    <script src="./js/scroll-project.js"></script>
-    <script src="./js/scroll-blogs.js"></script>
-    <script src="./js/scroll-partner.js"></script>
     <script src="./js/filter.js"></script>
 </body>
 

@@ -76,7 +76,10 @@
 
 
 @media (min-width: 415px) and (max-width: 599px) {
-
+    .contact-container{
+        padding: 0 !important;
+    }
+    
     .project-container {
         padding: 0 !important;
     }
@@ -140,6 +143,9 @@
 
 
 @media (min-width: 600px) and (max-width: 765px) {
+    .contact-container{
+        padding: 0 !important;
+    }
     .project-container {
         padding: 0 !important;
         display: grid;
@@ -188,6 +194,9 @@
 
 
 @media (min-width: 767px) and (max-width: 990px) {
+    .contact-container{
+        padding: 0 !important;
+    }
     .blogs-container {
         padding: 0 !important;
         display: grid !important;

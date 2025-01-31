@@ -5,27 +5,39 @@
 /* ================================================== */
 
 @media (min-width: 350px) and (max-width: 414px) {
+  .contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
   .hidee {
     display: none !important;
   }
+
   .main-section .service-title-text {
     font-size: 1rem !important;
   }
+
   .navbar_container {
     .nav-logo {
       height: 25px !important;
     }
+
     margin-top: 10px !important;
+
     .navbar-brand span {
       font-size: 1.1rem !important;
     }
   }
+
   .card-content p {
     font-size: 0.7rem !important;
   }
+
   .accordian-main {
     padding: 0 !important;
   }
+
   .accordion .accordion-body {
     font-size: 0.7rem !important;
   }
@@ -133,15 +145,23 @@
 }
 
 @media (min-width: 415px) and (max-width: 599px) {
+  .contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
   .hidee {
     display: none !important;
   }
+
   .accordion .accordion-button {
     font-size: 0.8rem !important;
   }
+
   .accordian-main {
     padding: 0 !important;
   }
+
   .accordion .accordion-body {
     font-size: 0.7rem !important;
   }
@@ -245,6 +265,11 @@
 }
 
 @media (min-width: 600px) and (max-width: 765px) {
+  .contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
   .main-section .ready-text {
     text-align: center !important;
   }
