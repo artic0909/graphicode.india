@@ -5,13 +5,18 @@
 /* ================================================== */
 
 @media (min-width: 350px) and (max-width: 414px) {
+    .project-container {
+        padding: 0 !important;
+    }
 
-    .btnss-2{
+    .btnss-2 {
         width: 100% !important;
     }
-    .all-btn{
+
+    .all-btn {
         width: 100% !important;
     }
+
     .buttons2 .btnss-2 {
         display: grid !important;
         grid-template-columns: 1fr !important;
@@ -66,9 +71,10 @@
 
 @media (min-width: 415px) and (max-width: 599px) {
 
-    .project-container{
+    .project-container {
         padding: 0 !important;
     }
+
     .buttons2 .btnss-2 {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
@@ -122,6 +128,10 @@
 
 
 @media (min-width: 600px) and (max-width: 765px) {
+    .project-container {
+        padding: 0 !important;
+    }
+
     .buttons2 .btnss-2 {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
