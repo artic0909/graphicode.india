@@ -133,6 +133,9 @@
 }
 
 @media (min-width: 415px) and (max-width: 599px) {
+  .hidee {
+    display: none !important;
+  }
   .accordion .accordion-button {
     font-size: 0.8rem !important;
   }

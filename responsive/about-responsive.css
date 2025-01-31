@@ -9,6 +9,12 @@
         padding: 0 !important;
     }
 
+    .blogs-container {
+        padding: 0 !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
     .btnss-2 {
         width: 100% !important;
     }
@@ -75,6 +81,12 @@
         padding: 0 !important;
     }
 
+    .blogs-container {
+        padding: 0 !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
     .buttons2 .btnss-2 {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
@@ -130,6 +142,14 @@
 @media (min-width: 600px) and (max-width: 765px) {
     .project-container {
         padding: 0 !important;
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .blogs-container {
+        padding: 0 !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
     }
 
     .buttons2 .btnss-2 {
@@ -168,6 +188,11 @@
 
 
 @media (min-width: 767px) and (max-width: 990px) {
+    .blogs-container {
+        padding: 0 !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
     .service2-row {
         display: flex !important;
         flex-direction: column-reverse !important;
