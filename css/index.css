@@ -28,6 +28,11 @@
   grid-template-columns: 8fr 4fr !important;
 }
 
+.sp-container{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+}
+
 
 .faq-row{
   display: grid !important;
